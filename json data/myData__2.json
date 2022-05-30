@@ -1,0 +1,40 @@
+{
+    "students":[
+        {
+            "Name":"Anisul Islam",
+            "middleName":"null",
+            "age":28,
+            "cgpa":3.45,
+            "isRegistered":true,
+            "languages":["Bangali","English","Hindi"],
+            "friends":[
+                {
+                    "Name":"Akter",
+                    "age":13
+                },
+                {
+                    "Name":"Kamal",
+                    "age":16
+                }
+            ]
+        },
+        {
+            "Name":"Rabeka Begum",
+            "middleName":"null",
+            "age":25,
+            "cgpa":3.67,
+            "isRegistered":false,
+            "languages":["Tamil","Japaniess","Gujratee"],
+            "friends":[
+                {
+                    "Name":"Shumul",
+                    "age":12
+                },
+                {
+                    "Name":"Manik",
+                    "age":18
+                }
+            ]
+        }
+    ]
+}

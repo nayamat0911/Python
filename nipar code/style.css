@@ -1,0 +1,33 @@
+ #simple_calculator{
+    background-color:; 
+    margin: auto; 
+    height: 400px; 
+    width: 500px;
+ }
+
+ input[type=text] {
+            width: 67%;
+            padding: 30px;
+            margin: 10px;
+            margin-left: 20px;
+            border: black 2px solid;
+        }
+
+        input[type=number] {
+            width: 30%;
+            padding: 15px;
+            margin: 10px;
+            margin-left: 20px;
+            border: black 2px solid;
+
+        }
+        .style{
+            width: 30%; 
+            margin-left: 
+            20px;margin-right:
+             10px;margin-bottom: 
+             20px;padding: 7px;
+            color: rgb(236, 212, 212);
+           background-color: rgb(240, 243, 246);
+        }
+    

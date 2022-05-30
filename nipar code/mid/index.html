@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mid lab</title>
+<style>
+    body{
+        background-color: #ffcc8e;
+        
+    }
+    .main_sec{
+        outline: 0;
+        padding: 0px;
+        margin: 0px 17% 0px 24%;
+        background-color: white;
+        color:  black;
+    }
+    .title{
+        text-align: center;
+        padding-top: 11px;
+
+    }
+    .title h1{
+        padding: 0px;
+        margin: 0px;
+        color: red;
+    }
+    .title h3{
+        padding-top: 5px;
+        margin-left: 100px;
+        margin-top: 0px;
+        font-size: 13px;
+        color: #ec5151;
+        font-style: italic;
+        text-transform: capitalize;
+    }
+    .about_section{
+        padding: 0px 20px;
+        padding-top:0px ;
+        margin-top: 0px;
+        
+    }
+    .about_section h1{
+        color: green;
+        font-size: 22px;
+    }
+    .about_section p{
+        text-align: justify;
+        font-size: 16px;
+    }
+    .middle_section{
+        padding: 0px 20px;
+        display: flex;
+        
+    }
+    .sectin_left{
+        width: 60%;
+        margin-left: 10px;
+    }
+    .sectin_left h3{
+        color: #1989f1;
+    }
+    .right_section{
+        float: right;
+        width: 30%;
+        height: 50%;
+        border: 1px solid #000;
+        right: 0px;
+        margin-top: 40px;
+       padding: 10px ;
+        background:#a1d3cb;
+    }
+    .sectin_left table , thead, td{
+        border: 1px solid #000;
+        border-collapse: collapse;
+        padding: 4px;
+        text-align: center;
+        margin-left: 15px;
+    }
+    .signup{
+        margin-left: 20px;
+    }
+    .signup input,select{
+        padding: 3px;
+        margin: 2px;
+    }
+    .signup input{
+        background: #ebebeb;
+    }
+    .gender_section h4{
+        color: #367cd8;
+    }
+    button{
+        margin-left: 30px;
+        background: #06b323;
+        padding: 10px 30px;
+        border: 2px solid #0a5c17;
+        border-radius: 5px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    footer{
+        text-align: center;
+        padding:  20px 0px;
+        cursor: pointer;
+    }
+</style>
+
+
+</head>
+<body >
+    <div class="main_sec">
+        <div class="title">
+            <h1>Boyz Developer</h1>
+            <h3>thi new critivity</h3>
+        </div>
+        <div class="about_section">
+            <h1>About</h1>
+            <p>Amet consectetur distinctio delectus velit cumque? delectus <b><u>Extreme majoririty</u></b> dolor sit amet consectetur adipisicing elit to <u><b>91% male</b></u> elrew Nam, veniam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. <i><u> <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae.</b> </u></i> </p>
+
+        </div>
+        <div class="middle_section">
+            <div class="sectin_left">
+                <h3>Upcooming Classes</h3>
+                <table>
+                    <thead>
+                        <td>Location</td>
+                        <td>Topic</td>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Maxico</td>
+                            <td>JavaScripts & jQuery</td>
+                        </tr>
+                        <tr>
+                            <td>dlaflfs</td>
+                            <td>Html & CSS</td>
+                        </tr>
+                       
+                    </tbody>
+                </table>
+                <div class="signup">
+                    <h3>Sign Up!</h3>
+                    <label for="">Name:</label>
+                    <input type="text"><br>
+                    <label for="">Email:</label>
+                    <input type="text" name="" id=""><br>
+                    <label for="">Location:</label>
+                    <select>
+                        <option value="">Mirpur</option>
+                        <option value="">Bonani</option>
+                        <option value="">Rampura</option>
+                        <option value="">Badda</option>
+                        <option value="">KhilKhet</option>
+                    </select>
+                    <div class="gender_section">
+                        <h4>Gender :</h4>
+                        <input type="radio" name="gender">
+                        <label for="">Female</label>
+                        <input type="radio" name="gender">
+                        <label for="">Male</label>
+                    </div>
+                    <p>Experience:</p>
+                    <textarea name="" id="" cols="25" rows="5"></textarea>
+                </div>
+                <button>Sign Up</button>
+            </div>
+            <div class="right_section">
+                <h3>Projects</h3>
+                <ul>
+                    <li>Bangladesh
+                        <ul>
+                            <li><a href="">Dhaka</a> </li>
+                            <li> <a href="">Chittagong</a> </li>
+                            <li><a href="">Rajshahi</a> </li>
+                            <li><a href="">Syllet</a> </li>
+                            <li><a href="">Bogora</a> </li>
+                        </ul>
+                    </li>
+                    
+                    <li>World
+                        <ul>
+                            <li>India</li>
+                            <li>Pakistan</li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <label for=""><u>Twitter</u>|</label>
+            <label for=""><u> Feacbook</u>|</label>
+            <label for=""><u> Linker</u>|</label>
+        </footer>
+    </div>
+</body>
+</html>
