@@ -19,3 +19,34 @@ mySet.add("c");
 console.log(mySet)
 mySet.add('d')
 console.log(mySet)
+
+
+const fruits = new Map([
+    ['apple',500],
+    ['banana',200],
+    ['orange',300]
+]);
+console.log(fruits);
+
+
+ss = fruits.get('apple')
+console.log(ss)
+pp = fruits.has('apple')
+console.log(pp)
+
+let a = "bangladesh"
+let b = "I love"
+let c = b + " " + a;
+console.log(c, typeof c)
+
+// object - array, null , date, 
+// undefined- undefined, value not be assignet thats is undefined
+
+
+// primitive Data = string, number, boolean, undefined
+// this is can be retrun 
+
+// complex data = function, object, 
+
+// function is object 
+// type of is operator it is not a variable , operators (+,=, -, *,/)
