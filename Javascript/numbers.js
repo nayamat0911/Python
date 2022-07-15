@@ -50,3 +50,19 @@ console.log(c, typeof c)
 
 // function is object 
 // type of is operator it is not a variable , operators (+,=, -, *,/)
+// console.log(Number('           '))
+// console.log(parentInt(8))
+// (3).toString()
+// Reguler expression
+
+// find any thinsg thats is reguler expression
+// /pattern/modifiers'
+// /w3schools/i
+
+//  replace and serche
+let text = "visite the W3Schools!";
+let n = text.search("W3Schools")
+console.log(n)
+let m = text.replace('microsoft','W3School')
+console.log(n)
+
