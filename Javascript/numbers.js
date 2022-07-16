@@ -66,3 +66,17 @@ console.log(n)
 let m = text.replace('microsoft','W3School')
 console.log(n)
 
+// try , catch, throw, finally
+
+// sili mistake
+// dengurues error
+try {
+    adddlert('this is error')
+}
+catch(err){
+    console.log(err)
+}
+// try {
+ //   try the code
+//}
+
