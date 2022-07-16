@@ -79,4 +79,28 @@ catch(err){
 // try {
  //   try the code
 //}
+// catch(err){
 
+// }
+
+// name and message. , building error
+// js throw en exprestion 
+// throw statemment allow you to create a custom error create by user own thinking
+// throw " too big"
+// throw 500
+
+// error na hole catch e jabe na
+let t = 1;
+
+try {
+    if(t =="") throw "empty"
+    if(isNaN(t)) throw "not a number"
+    t = Number(t);
+    if(t < 5) throw "too low";
+    if(t > 10) throw "too high";
+
+}
+catch(err){
+
+}
+console.log("this is test")
