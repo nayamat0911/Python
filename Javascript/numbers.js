@@ -103,4 +103,30 @@ try {
 catch(err){
 
 }
+finally{
+    console.log("this is finally stage")
+}
 console.log("this is test")
+
+// range eror // reference error // 
+
+// scope 
+// function scop
+// block scope
+{
+    let yyx =2 // it's is a block scop
+}
+console.log(yyx)
+
+{
+    var eey= 2
+
+}
+console.log(eey)
+
+function A(){
+    let x;
+}
+function B(){
+    let x;
+}
